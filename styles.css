@@ -7,7 +7,7 @@ body {
   text-shadow: 1px 1px rgba(255, 255, 255, 0.404);
 }
 h3:hover{
-  animation: shadow-marble 10s infinite 1s;
+  animation: shadow-marble 3s infinite 1s;
   animation-direction: alternate;
 }
 a:link {
@@ -63,7 +63,7 @@ a:visited{
   border: 1px solid black;
 }
 .exp a{
-  animation: shadow-up-down 1s infinite;
+  animation: shadow-up-down 1.5s ease-in infinite;
   animation-direction: alternate;
 }
 .side-wrap {
@@ -135,6 +135,6 @@ footer {
   100% {text-shadow: -3px 3px rgb(187, 156, 255);}  
 }
 @keyframes shadow-up-down {
-  0% {text-shadow: 0px 21px rgba(255, 255, 255, 0.375);}
+  0% {text-shadow: 0px 21px rgba(255, 255, 255, 0.153);}
   100% {text-shadow: 0px -1px rgb(0, 0, 0);}  
 }
