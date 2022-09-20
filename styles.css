@@ -1,0 +1,140 @@
+body {
+  margin: 0px;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px rgba(255, 255, 255, 0.404);
+}
+h3:hover{
+  animation: shadow-marble 3s infinite 1s;
+  animation-direction: alternate;
+}
+a:link {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 550;
+  text-decoration: none;
+  color: rgb(29, 178, 163);
+  transition: 0.5s;
+}
+a:visited{
+  color: rgb(57, 77, 76);
+}
+.hero{
+  text-align: center;
+  font-family: 'Lucida Sans Typewriter', 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  text-shadow: 2px 2px rgb(239, 239, 239);
+  background-image: url(IMG/tiny-me.png);
+  height: 300px;
+  margin: 0px 8px;
+}
+.my-img {
+  width: 100%;
+}
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.main-wrap {
+  width: 75vw;
+  background-color: rgb(239, 239, 242);
+  margin: 0px;
+  padding: 10px 50px;
+  border-top: 2px solid black;
+}
+.contact {
+  border-bottom: 1px dotted black;
+}
+.contact a:hover{
+  font-size: 25px;
+}
+.contact a:visited{
+  font-size: 18px;
+}
+.about {
+  border-bottom: 1px dotted black;
+}
+.edu{
+  border-bottom: 1px dotted black;
+}
+.cert-img {
+  width: 100%;
+  border: 1px solid black;
+}
+.exp a{
+  animation: shadow-up-down 1.5s ease-in infinite;
+  animation-direction: alternate;
+}
+.side-wrap {
+  width: 25vw;
+  background-color: rgb(213, 213, 213);
+  padding: 10px;
+  border: 2px solid black;
+  border-bottom: none;
+}
+.efcert{
+  width: 100%;
+}
+.code{
+  padding: 0px 50px;
+  background-color: grey;
+  border-top: 5px inset darkcyan;
+  border-bottom: 6px inset darkcyan;
+  border-radius: .2rem;
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 540;
+  color: white;
+  text-shadow: none;
+}
+.code a:link{
+  color: crimson;
+}
+.code a:hover{
+  animation: color-twinkle 1.5s infinite;
+  animation-direction: alternate;
+}
+.code a:visited{
+  color: white;
+  text-shadow: 3px 3px black;
+}
+.code pre{
+  margin: 0px;
+}
+pre code {
+  background-color: #999;
+  display: block;
+  padding: 5px;
+}
+pre code:before {
+  display: block;
+  position: relative;
+  margin-top: -5px;
+  width: 101%;
+  left: -0.5%;
+  content: 'JAVASCRIPT';
+  background: rgb(106, 132, 141);
+}
+.code .keyword{
+  color: rgb(37, 113, 255);
+}
+footer {
+  height: 50px;
+}
+@keyframes color-twinkle {
+  0% {color:  crimson;}
+  50% {color: rgb(204, 255, 0);}
+  100% {color: rgb(0, 174, 255);}
+  }
+@keyframes shadow-marble {
+  0% {text-shadow: 3px 3px rgb(0, 255, 0);}
+  33% {text-shadow: 3px -3px rgb(255, 255, 0);}
+  66% {text-shadow: -3px -3px rgb(255, 0, 0);}
+  100% {text-shadow: -3px 3px rgb(187, 156, 255);}  
+}
+@keyframes shadow-up-down {
+  0% {text-shadow: 0px 21px rgba(255, 255, 255, 0.153);}
+  100% {text-shadow: 0px -1px rgb(0, 0, 0);}  
+}
