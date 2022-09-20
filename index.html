@@ -109,17 +109,17 @@
         <p>Latest solved kata on <a href="https://www.codewars.com">Codewars</a>: returning the sum of all positive numbers in a given array</p>
         <pre data-lang="JavaScript">
             <code>
-<span class='keyword'>function</span> positiveSum(arr) {
+ <span class='keyword'>function</span> positiveSum(arr) {
     <span class='keyword'>var</span> newarr = arr.filter(positive);
-        <span class='keyword'>var</span> sum = 0;
-            <span class='keyword'>for</span> (<span class='keyword'>let</span> i=0; i&#60newarr.<span class='keyword'>length</span>; i++){
-sum += newarr[i];
-}
-<span class='keyword'>return</span> sum
-}
-<span class='keyword'>function</span> positive(x) {
+            <span class='keyword'>var</span> sum = 0;
+    <span class='keyword'>for</span> (<span class='keyword'>let</span> i=0; i&#60newarr.<span class='keyword'>length</span>; i++){
+            sum += newarr[i];
+            }
+    <span class='keyword'>return</span> sum
+ }
+ <span class='keyword'>function</span> positive(x) {
     <span class='keyword'>return</span> x>=0
-}
+ }              
             </code>
         </pre>
     </section>
