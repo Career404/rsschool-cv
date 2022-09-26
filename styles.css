@@ -27,6 +27,9 @@ a:visited{
   font-weight: 600;
   text-shadow: 2px 2px rgb(239, 239, 239);
   background-image: url(IMG/tiny-me.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 300px;
   margin: 0px 8px;
 }
